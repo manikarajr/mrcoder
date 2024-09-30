@@ -1,0 +1,39 @@
+
+.backgroundcolor{
+    background-image: radial-gradient( circle farthest-corner at 18.7% 37.8%,  rgba(250,250,250,1) 0%, rgba(225,234,238,1) 90% );
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    color: #1836B2;
+    font-size: 45px;
+    margin: 0 0 15px;
+    border-left: 5px solid #A066CC;
+    padding-left: 15px;
+}
+.section-title p {
+   
+    font-size: 18px;
+}
+/* Default state of the card */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for scaling and shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial shadow effect */
+  }
+  
+  /* Hover state of the card */
+  .card:hover {
+    transform: scale(1.02); /* Slightly enlarge the card */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* Increase shadow to give more depth */
+  }
+  
+  /* Optional: You can add hover effects to the card image as well */
+  .card .img-fluid {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover .img-fluid {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+  }
+  

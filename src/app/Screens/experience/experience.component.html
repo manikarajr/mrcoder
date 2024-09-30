@@ -1,0 +1,71 @@
+<section class="section gray-bg" id="resume">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="section-title">
+          <h2>{{ sectionTitle }}</h2> <!-- Title from TS -->
+          <p>{{ sectionDescription }}</p> <!-- Description from TS -->
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex justify-content-end align-items-end pb-3" style="height: 100%;">
+        <!-- Button with dynamic text from TS -->
+        <button type="button" class="btn btn-lg btn-primary downloadcvbtn" (click)="downloadCV()">
+          <i class="bi bi-download"></i>
+          {{ downloadButtonText }}
+        </button>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-6 m-15px-tb">
+        <div class="resume-box">
+          <ul>
+            <li>
+              <div class="icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <span class="year">{{ experience1.year }}</span> 
+              <span class="time">{{ experience1.company }}</span>
+              <h5>{{ experience1.title }}</h5> 
+              <p>{{ experience1.description }}</p> 
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <span class="year">{{ experience2.year }}</span> 
+              <span class="time">{{ experience2.company }}</span>
+              <h5>{{ experience2.title }}</h5>
+              <p>{{ experience2.description }}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 m-15px-tb">
+        <div class="resume-box">
+          <ul>
+            <li>
+              <div class="icon">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <span class="year">{{ experience3.year }}</span> 
+              <span class="time">{{ experience3.company }}</span>
+              <h5>{{ experience3.title }}</h5>
+              <p>{{ experience3.description }}</p>
+            </li>
+            <li>
+              <div class="icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <span class="year">{{ experience4.year }}</span> 
+              <span class="time">{{ experience4.company }}</span>
+              <h5>{{ experience4.title }}</h5>
+              <p>{{ experience4.description }}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
