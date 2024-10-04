@@ -1,4 +1,4 @@
-<section class="bsb-skill-2 py-3 py-md-5 py-xl-8 backgroundcolor">
+ <section class="bsb-skill-2 py-3 py-md-5 py-xl-8 backgroundcolor">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-10 col-lg-8 py-md-4 py-xl-8 pt-md-5">
@@ -10,26 +10,58 @@
       
           </div>
     </div>
-  
     <div class="container">
-      <div class="row gy-3 gy-lg-4">
-        <div class="col-12 col-lg-6" *ngFor="let skill of skills">
-          <div class="card">
-            <div class="card-body p-3 p-xxl-5">
-              <div class="row align-items-center">
-                <div class="col-12 col-md-7 skill-title">
-                  <h3 class="fw-bold mb-2">{{ skill.title }}</h3>
-                  <p class="text-secondary fst-italic mb-4 mb-md-0">{{ skill.description }}</p>
-                </div>
-                <div class="col-12 col-md-5 skill-progress">
-                    <a href="#!" class="bsb-hover-image d-block rounded overflow-hidden">
-                        <img class="img-fluid author-avatar bsb-scale bsb-hover-scale-up" loading="lazy" [src]="skill.image" [alt]="skill.title">
-                      </a>
-                </div>
+      <div class="row pb-4">
+            <!-- Team Start -->
+            <div class="col-md-6 col-lg-3 my-2">
+              <div class="lc-block team-card">
+                  <img src="../../../assets/Image/projectimage/angularpic.jpg" alt="Angular" loading="lazy" class="img-fluid team-image">
+                  <div class="lc-block position-relative text-center mx-2 mt-n4 py-4 bg-light shadow team-info">
+                      <h4>Angular</h4>
+                      <p class="small">Angular is a TypeScript-based front-end framework for building dynamic, single-page web applications.</p>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
+          <!-- Team end -->
+          <!-- Team Start -->
+          <div class="col-md-6 col-lg-3 my-2">
+              <div class="lc-block team-card">
+                  <img src="../../../assets/Image/projectimage/Bootstrapimage.jpg" alt="Bootstrap" loading="lazy" class="img-fluid team-image">
+                  <div class="lc-block position-relative text-center mx-2 mt-n4 py-4 bg-light shadow team-info">
+                      <h4>Bootstrap</h4>
+                      <p class="small">Bootstrap is a popular open-source framework for building responsive, mobile-first websites using HTML, CSS, and JavaScript.</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Team end -->
+
+      
+
+          <!-- Team Start -->
+          <div class="col-md-6 col-lg-3 my-2">
+              <div class="lc-block team-card">
+                  <img src="../../../assets/Image/projectimage/Asp.net.svg.png" alt="Paul Mackenzie" loading="lazy" class="img-fluid team-image">
+                  <div class="lc-block position-relative text-center mx-2 mt-n4 py-4 bg-light shadow team-info">
+                      <h4>ASP.net</h4>
+                      <p class="small">ASP.NET is a web development framework for building dynamic websites, applications, and services using .NET technologies.</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Team end -->
+
+          <!-- Team Start -->
+          <div class="col-md-6 col-lg-3 my-2">
+              <div class="lc-block team-card">
+                  <img src="../../../assets/Image/projectimage/SQL.jpg" alt="Faith Watson" loading="lazy" class="img-fluid team-image">
+                  <div class="lc-block position-relative text-center mx-2 mt-n4 py-4 bg-light shadow team-info">
+                      <h4>SQL</h4>
+                      <p class="small">SQL (Structured Query Language) is a standardized language used to manage and manipulate relational databases.</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Team end -->
       </div>
-    </div>
-  </section>
+  </div>
+  </section> 
+
+
